@@ -1,3 +1,6 @@
+#Ryan McDowell
+#Practicing Lists
+#6/28/21
 bicycles = ['trek', 'mountain', 'large', 'small']
 print(bicycles)
 print(bicycles[0])
