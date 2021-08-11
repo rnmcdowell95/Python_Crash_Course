@@ -1,6 +1,9 @@
 #Ryan McDowell
 #8/6/21
-#Practicing with Python classes.
+#Creaing a module to import classes.
+
+"""A Class that can be used to represent a car."""
+
 
 class Car:
     """A simple attempt to represent a car."""
@@ -39,17 +42,3 @@ class Car:
             print("You can't roll the odometer back!")
 
 
-my_new_car = Car('honda', 'accord', 1991)
-
-print(my_new_car.get_description())
-
-my_new_car.read_odometer()
-
-my_new_car.odometer_reading = 20
-my_new_car.read_odometer()
-
-my_new_car.update_odometer(500)
-my_new_car.read_odometer()
-my_new_car.incremenet_odometer(50)
-my_new_car.read_odometer()
-my_new_car.incremenet_odometer(-50)
