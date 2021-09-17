@@ -8,5 +8,5 @@ username = input("Enter your username: ")
 
 filename = 'username.json'
 with open(filename, 'w') as f:
-    json.dump(filename, f)
-    print
+    json.dump(username, f)
+    print(f"Thanks for submitting your name, we'll be ready for you when come back {username}!")
